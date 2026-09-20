@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "label": "Band 1 — Most Vulnerable",
+    "incomeMin": 0,
+    "incomeMax": 5995,
+    "govPercent": 70,
+    "helbPercent": 25,
+    "householdPercent": 5,
+    "annualUpkeep": 60000
+  },
+  {
+    "id": 2,
+    "label": "Band 2 — Low Income",
+    "incomeMin": 5996,
+    "incomeMax": 23670,
+    "govPercent": 60,
+    "helbPercent": 30,
+    "householdPercent": 10,
+    "annualUpkeep": 55000
+  },
+  {
+    "id": 3,
+    "label": "Band 3 — Modest Income",
+    "incomeMin": 23671,
+    "incomeMax": 70000,
+    "govPercent": 50,
+    "helbPercent": 30,
+    "householdPercent": 20,
+    "annualUpkeep": 50000
+  },
+  {
+    "id": 4,
+    "label": "Band 4 — Middle Income",
+    "incomeMin": 70001,
+    "incomeMax": 120000,
+    "govPercent": 40,
+    "helbPercent": 30,
+    "householdPercent": 30,
+    "annualUpkeep": 45000
+  },
+  {
+    "id": 5,
+    "label": "Band 5 — High Income",
+    "incomeMin": 120001,
+    "incomeMax": null,
+    "govPercent": 30,
+    "helbPercent": 30,
+    "householdPercent": 40,
+    "annualUpkeep": 40000
+  }
+]
