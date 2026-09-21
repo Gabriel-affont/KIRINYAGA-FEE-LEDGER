@@ -1,0 +1,19 @@
+{
+  "slug": "bachelor-of-technology",
+  "programmes": [
+    "Bachelor of Technology in Telecommunication and Information",
+    "Bachelor of Technology in Construction Management",
+    "Bachelor of Technology in Mechanical Engineering",
+    "Bachelor of Technology in Electrical and Computer Engineering",
+    "Bachelor of Technology in Water, Sanitation and Habitat Engineering",
+    "Bachelor of Technology in Mechanical Ventilation and Air Conditioning"
+  ],
+  "note": "Programme fee shown includes the 15% discount for payment on registration day.",
+  "years": {
+    "1": {
+      "firstSemester": 153000,
+      "secondSemester": 153000,
+      "totalPerYear": 306000
+    }
+  }
+}
