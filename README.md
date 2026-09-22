@@ -1,4 +1,5 @@
 # Kirinyaga Fee Ledger
+https://gabriel-affont.github.io/KIRINYAGA-FEE-LEDGER/ to see the page
 
 A small calculator that answers one question: **exactly how much household
 fee do I need to pay right now?**
