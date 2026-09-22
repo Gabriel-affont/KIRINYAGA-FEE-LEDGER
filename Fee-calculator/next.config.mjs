@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: "export",
-  images: { unoptimized: true },
-  basePath: "/KIRINYAGA-FEE-LEDGER/Fee-calculator",
-  assetPrefix: "/KIRINYAGA-FEE-LEDGER/Fee-calculator/",
-};
+const isProd = process.env.NODE_ENV === "production";
 
+const nextConfig = {
+  output: "export",
+  images: { unoptimized: true },
+  ...(isProd && {
+    basePath: "/KIRINYAGA-FEE-LEDGER",
+    assetPrefix: "/KIRINYAGA-FEE-LEDGER/",
+  }),
+};
 
 export default nextConfig;
