@@ -8,7 +8,7 @@ import type { Band, CalculationResult } from "./types";
  * and not including annual upkeep, which is paid separately by the
  * household regardless of disbursement timing.
  *
- * If the university changes this percentage, this is the only line
+ * If your university changes this percentage, this is the only line
  * that needs to change.
  */
 export const HOUSEHOLD_PORTION_DUE_NOW = 0.6;

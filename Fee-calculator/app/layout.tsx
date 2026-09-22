@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./global";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kirinyaga Fee Ledger",
