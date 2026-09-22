@@ -1,12 +1,12 @@
 {
-  "slug": "bachelor-of-technology",
+  "slug": "Pure and Applied Science",
   "programmes": [
-    "Bachelor of Technology in Telecommunication and Information",
-    "Bachelor of Technology in Construction Management",
-    "Bachelor of Technology in Mechanical Engineering",
-    "Bachelor of Technology in Electrical and Computer Engineering",
-    "Bachelor of Technology in Water, Sanitation and Habitat Engineering",
-    "Bachelor of Technology in Mechanical Ventilation and Air Conditioning"
+    "Bachelor of Technology in Software Engineering",
+    "Bachelor of Technology in Computer science",
+    "Bachelor of Technology in Information Technology",
+    "Bachelor of Technology in Forensics Science",
+    "Bachelor of Technology in Computer Engineering",
+    "Bachelor of Technology in Statics"
   ],
   "note": "Programme fee shown includes the 15% discount for payment on registration day.",
   "years": {
@@ -14,6 +14,27 @@
       "firstSemester": 153000,
       "secondSemester": 153000,
       "totalPerYear": 306000
+    },
+    "2": {
+      "firstSemester": 153000,
+      "secondSemester":153000,
+      "totalPerYear":306000
+
+    },
+    "3": {
+      "firstSemester": 153000,
+      "secondSemester":153000,
+      "totalPerYear":306000
+
+    },
+    "4": {
+       "firstSemester": 153000,
+      "secondSemester":153000,
+      "totalPerYear":306000
+
     }
+
   }
+
+  
 }

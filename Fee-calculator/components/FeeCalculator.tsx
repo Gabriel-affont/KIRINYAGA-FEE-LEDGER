@@ -28,7 +28,10 @@ export default function FeeCalculator({ bands, faculties }: Props) {
     (f) => f.slug === programmeOptions[programmeIndex]?.facultySlug
   );
   const availableYears = selectedFaculty ? Object.keys(selectedFaculty.years) : [];
-  const [year, setYear] = useState(availableYears[0] ?? "1");
+  const [yearPreference, setYearPreference] = useState<string | null>(null);
+const year = yearPreference && availableYears.includes(yearPreference)
+    ? yearPreference
+    : (availableYears[0] ?? "1");
 
   const [mode, setMode] = useState<"income" | "band">("income");
   const [income, setIncome] = useState<string>("");
@@ -63,7 +66,7 @@ export default function FeeCalculator({ bands, faculties }: Props) {
           </select>
         </Field>
         <Field label="Year of study">
-          <select className="ledger-input" value={year} onChange={(e) => setYear(e.target.value)}>
+          <select className="ledger-input" value={year} onChange={(e) => setYearPreference(e.target.value)}>
             {availableYears.map((y) => (
               <option key={y} value={y}>
                 Year {y}
